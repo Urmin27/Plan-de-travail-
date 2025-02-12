@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plan d'Investissement - EVO FINANCE</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .info {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .info ul {
+      list-style: disc inside;
+      margin-top: 10px;
+    }
+    .plan-type {
+      color: #007BFF;
+      font-weight: bold;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s forwards;
+    }
+    .card:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+    .card:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #007BFF;
+      color: #fff;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Plan d'Investissement - EVO FINANCE</h1>
+    
+    <div class="info">
+      <p>
+        Chez <span class="plan-type">EVO FINANCE</span>, vous avez le choix entre deux plans d’investissement :
+      </p>
+      <ul>
+        <li>
+          <strong>Plan de Trading</strong> : Dépôt minimum <strong>15$</strong>. Le capital n’est pas retirable, seuls les gains peuvent être retirés.
+        </li>
+        <li>
+          <strong>Plan d'Investissement</strong> : Le capital et les gains sont retirables à la fin du contrat.
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Plan de Trading</h2>
+      <p><strong>Dépôt minimum :</strong> 15$</p>
+      <p>Le capital n'est pas retirable, seuls les <em>gains</em> peuvent être retirés.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Niveau</th>
+            <th>Dépôt</th>
+            <th>Gains</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Niveau 1</td>
+            <td>15$</td>
+            <td>2,5% par jour</td>
+          </tr>
+          <tr>
+            <td>Niveau 2</td>
+            <td>200$</td>
+            <td>2,6% par jour</td>
+          </tr>
+          <tr>
+            <td>Niveau 3</td>
+            <td>1000$</td>
+            <td>2,7% par jour</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Plan d'Investissement</h2>
+      <p>Avec ce plan, vous pouvez retirer votre capital et vos gains à la fin du contrat.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Niveau</th>
+            <th>Dépôt</th>
+            <th>Gains</th>
+            <th>Durée du contrat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Niveau 1</td>
+            <td>2,5$ (minimum)</td>
+            <td>5%</td>
+            <td>1mois</td>
+          </tr>
+          <tr>
+            <td>Niveau 2</td>
+            <td>200$</td>
+            <td>5,5%</td>
+            <td>3 mois</td>
+          </tr>
+          <tr>
+            <td>Niveau 3</td>
+            <td>500$ et plus</td>
+            <td>6,5%</td>
+            <td>6 mois</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    // Animation additionnelle si besoin
+  </script>
+</body>
+</html>
